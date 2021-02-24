@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        function setColorByJS() {
+            var inputs = document.getElementsByTagName("input");
+            for (var i = 0; i < inputs.length; i++) {
+                inputs[i].style.background = "#efefef";
+            }
+            var textareas = document.getElementsByTagName("textarea");
+            for (var i = 0; i < textareas.length; i++) {
+                textareas[i].style.background = "#efefef";
+            }
+        }
+        function setColorByjQuery() {
+            $(":input").css("background", "red");
+            $(":textarea").css("background","red");
+        }
+    </script>
+</head>
+<body>
+    使用Javasript修改DOM
+    <form action="" id="contacts-form">
+        <fieldset>
+            <label><span>姓名：</span><input type="text" /></label><br />
+            <label><span>电子邮件：</span><input type="text" /></label><br />
+            <div class="wrapper"><span>留言：</span><textarea></textarea></div>
+        </fieldset>
+    </form>
+    <div class="wrapper">
+        <a href="#" class="button" onclick="javascript: setColorByJS();">Javascript更改表单颜色</a>
+        <a href="#" class="button" onclick="javascript: setColorByjQuery();">jQUery更改表单颜色</a>
+    </div>
+</body>
+</html>

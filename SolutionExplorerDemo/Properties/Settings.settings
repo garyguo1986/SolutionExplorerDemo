@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SolutionExplorerDemo.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ttt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">uuuu</Value>
+    </Setting>
+    <Setting Name="myuser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">gary</Value>
+    </Setting>
+    <Setting Name="mypassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mypassword***</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
