@@ -20,6 +20,7 @@ namespace SolutionExplorerDemo_UnitTest
             //Assert
             //Assert.Inconclusive();
             Assert.AreEqual(status,Status.Temporary);
+            Assert.AreEqual(1, 1);
         }
     }
 }
